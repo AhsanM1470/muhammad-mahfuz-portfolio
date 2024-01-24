@@ -2,6 +2,7 @@ import React from 'react';
 import IconContext from '../IconContext';
 import Navbar from './Navbar';
 import ProfileSection from './ProfileSection';
+import AboutSection from './AboutSection';
 import '../App.css';
 import '../MediaQueries.css';
 
@@ -17,6 +18,7 @@ function App() {
       <div>
         <Navbar />
         <ProfileSection />
+        <AboutSection />
       </div>
     </IconContext.Provider>
   );

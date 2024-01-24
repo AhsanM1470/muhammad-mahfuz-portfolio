@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Navbar() {
+function Navbar(){
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
