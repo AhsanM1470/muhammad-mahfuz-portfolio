@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar(){
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,16 +9,23 @@ function Navbar(){
         console.log("Touched");
     };
 
+    const scrollToSection = (sectionId) => {
+      const section = document.getElementById(sectionId);
+      if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
+      }
+  };
+
     return(
     <header>
       <nav id="desktop-nav">
         <div className="logo">Muhammad Ahsan Mahfuz</div>
         <div>
             <ul className="nav-links">
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="index.html#experience">Experience</a></li>
-            <li><a href="index.html#projects">Projects</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
       </nav>
@@ -31,10 +39,10 @@ function Navbar(){
             <span></span>
           </div>
           <div className={`menu-links ${isMenuOpen ? 'open' : ''}`}>
-            <li><a href="index.html#about" onClick={toggleMenu}>About</a></li>
-            <li><a href="index.html#experience" onClick={toggleMenu}>Experience</a></li>
-            <li><a href="index.html#projects" onClick={toggleMenu}>Projects</a></li>
-            <li><a href="index.html#contact" onClick={toggleMenu}>Contact</a></li>
+            <li><a href="#about" onClick={toggleMenu}>About</a></li>
+            <li><a href="#experience" onClick={toggleMenu}>Experience</a></li>
+            <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
+            <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
           </div>
         </div>
       </nav>

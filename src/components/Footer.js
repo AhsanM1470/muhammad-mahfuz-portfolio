@@ -4,8 +4,8 @@ function Footer(){
     return(
         <footer>
             <nav>
-                <div class="nav-links-container">
-                <ul class="nav-links">
+                <div className="nav-links-container">
+                <ul className="nav-links">
                     <li><a href="index.html#about">About</a></li>
                     <li><a href="index.html#experience">Experience</a></li>
                     <li><a href="index.html#projects">Projects</a></li>
