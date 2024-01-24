@@ -5,6 +5,7 @@ import ProfileSection from './ProfileSection';
 import AboutSection from './AboutSection';
 import ExperienceSection from './ExperienceSection';
 import ProjectSection from './ProjectSection';
+import ContactSection from './ContactSection';
 import '../App.css';
 import '../MediaQueries.css';
 
@@ -23,6 +24,7 @@ function App() {
         <AboutSection />
         <ExperienceSection />
         <ProjectSection />
+        <ContactSection />
       </div>
     </IconContext.Provider>
   );
