@@ -3,6 +3,7 @@ import IconContext from '../IconContext';
 import Navbar from './Navbar';
 import ProfileSection from './ProfileSection';
 import AboutSection from './AboutSection';
+import ExperienceSection from './ExperienceSection';
 import '../App.css';
 import '../MediaQueries.css';
 
@@ -19,6 +20,7 @@ function App() {
         <Navbar />
         <ProfileSection />
         <AboutSection />
+        <ExperienceSection />
       </div>
     </IconContext.Provider>
   );

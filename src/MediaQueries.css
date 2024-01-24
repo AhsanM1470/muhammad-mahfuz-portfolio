@@ -43,6 +43,10 @@
     .about-containers{
       margin-top: 0;
     }
+
+    #experience, .experience-details-container{
+      margin-top: 2rem;
+    }
 }
 
   @media screen and (max-width: 600px){
@@ -63,6 +67,10 @@
     #profile{
         height: 83vh;
         margin-bottom: 0;
+    }
+
+    .experience-sub-title{
+      font-size: 1.25rem;
     }
 
     .title{
