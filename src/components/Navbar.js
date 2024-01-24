@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-// Import your CSS file or any other assets
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    console.log("Touched");
   };
 
   return (
@@ -21,22 +21,21 @@ function Navbar() {
             </ul>
         </div>
       </nav>
+
       <nav id="hamburger-nav">
         <div className="logo">Muhammad Ahsan Mahfuz</div>
         <div className="hamburger-menu">
-          <div className="hamburger-icon" onClick={toggleMenu}>
+          <div className={`hamburger-icon ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
             <span></span>
             <span></span>
             <span></span>
           </div>
-          {isMenuOpen && (
-            <div className="menu-links">
-              <li><a href="#about" onClick={toggleMenu}>About</a></li>
-              <li><a href="#experience" onClick={toggleMenu}>Experience</a></li>
-              <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
-              <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
-            </div>
-          )}
+          <div className={`menu-links ${isMenuOpen ? 'open' : ''}`}>
+            <li><a href="index.html#about" onClick={toggleMenu}>About</a></li>
+            <li><a href="index.html#experience" onClick={toggleMenu}>Experience</a></li>
+            <li><a href="index.html#projects" onClick={toggleMenu}>Projects</a></li>
+            <li><a href="index.html#contact" onClick={toggleMenu}>Contact</a></li>
+          </div>
         </div>
       </nav>
     </header>
