@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 
 function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-    console.log("Touched");
-  };
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+        console.log("Touched");
+    };
 
-  return (
+    return(
     <header>
       <nav id="desktop-nav">
         <div className="logo">Muhammad Ahsan Mahfuz</div>
@@ -39,7 +39,7 @@ function Navbar() {
         </div>
       </nav>
     </header>
-  );
+    );
 }
 
 export default Navbar;
