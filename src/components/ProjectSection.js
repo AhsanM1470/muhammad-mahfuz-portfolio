@@ -36,9 +36,9 @@ function ProjectSection(){
                             <button className="btn btn-color-2 project-btn" onClick={() => window.location.href='https://github.com/'}>
                                 Github
                             </button>
-                            <button className="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            <Link to="/weather" className="project-link btn btn-color-2 project-btn">
                                 More Info
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 

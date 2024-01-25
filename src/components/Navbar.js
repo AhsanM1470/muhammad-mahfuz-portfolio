@@ -19,7 +19,11 @@ function Navbar(){
     return(
     <header>
       <nav id="desktop-nav">
-        <div className="logo">Muhammad Ahsan Mahfuz</div>
+        <div className="logo">
+          <Link to="/home">
+            Muhammad Ahsan Mahfuz
+          </Link>
+        /</div>
         <div>
             <ul className="nav-links">
             <li><a href="#about">About</a></li>

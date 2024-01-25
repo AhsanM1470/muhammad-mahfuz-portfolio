@@ -5,6 +5,8 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Home from '../pages/Home';
 import KangarooTaskarooProject from '../pages/KangarooTaskarooProject'
+import WeatherProject from '../pages/WeatherProject';
+import CovidDataViewerProject from '../pages/CovidDataViewerProject'
 import '../App.css';
 import '../MediaQueries.css';
 
@@ -24,6 +26,8 @@ function App() {
             <Route path="/*" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/kangaroo-taskaroo" element={<KangarooTaskarooProject />} />
+            <Route path="/weather" element={<WeatherProject />} />
+            <Route path="/covid-data-viewer" element={<CovidDataViewerProject />} />
           </Routes>
           <Footer />
         </div>

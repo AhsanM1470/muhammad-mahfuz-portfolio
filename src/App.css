@@ -536,3 +536,7 @@ footer p{
   margin-top: 1em;
   border-radius: 0.3rem;
 }
+
+.bullet-point-list{
+  margin-left: 2.5rem;
+}
