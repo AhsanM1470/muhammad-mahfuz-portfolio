@@ -87,6 +87,13 @@ function ExperienceSection(){
                             <article>
                                 <img src={checkmarkIcon} class="icon" alt="Experience icon"/>
                                 <div>
+                                    <h3>JavaFX</h3>
+                                </div>
+                            </article>
+
+                            <article>
+                                <img src={checkmarkIcon} class="icon" alt="Experience icon"/>
+                                <div>
                                     {/* Not aligned */}
                                     <h3>C++</h3>
                                 </div>

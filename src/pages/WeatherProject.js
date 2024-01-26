@@ -24,16 +24,16 @@ function WeatherProject() {
           <div>
             The search bar performs a fuzzy search and displays a list of locations matching the user's input.
           </div>
-          <img src={searchBar} className="project-pic"/>
+          <img src={searchBar} className="project-pic" alt="Search bar" />
 
           <div className="text-container">
             Upon selecting a location, the user is presented with the forecast over the next week.
           </div>
-          <img src={weatherApp} className="project-pic"/>
+          <img src={weatherApp} className="project-pic" alt="Main page" />
           <div className="text-container">
             Individual days and hours can be selected for further information.<br />
             <b>Data displayed includes:</b>
-            <ul class="bullet-point-list">
+            <ul className="bullet-point-list">
               <li>The date and time</li>
               <li>The temperature</li>
               <li>The temperature it feels like</li>

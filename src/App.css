@@ -82,7 +82,7 @@ nav{
 }
 
 .text-container{
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 a{
@@ -142,6 +142,8 @@ a:hover{
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+
+  z-index: 1;
 }
 
 .menu-links a{
@@ -521,6 +523,14 @@ footer p{
 .project-pic-side{
   border-radius: 0.3rem;
   width: 15%;
+  height: 100%;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.project-pic-side-2{
+  border-radius: 0.3rem;
+  width: 35%;
   height: 100%;
   margin-top: 1em;
   margin-left: 1em;

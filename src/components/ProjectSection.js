@@ -52,14 +52,18 @@ function ProjectSection(){
                             <button className="btn btn-color-2 project-btn" onClick={() => window.location.href='https://github.com/'}>
                                 Github
                             </button>
-                            <button className="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            <Link to="/covid-data-viewer" className="project-link btn btn-color-2 project-btn">
                                 More Info
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
 
                 <h2>And this very website you're using right now!</h2>
+                <div class="text-container">
+                    Using <b>HTML, CSS, JavaScript, NodeJS</b> and <b>React</b>
+                </div>
+
             </div>
         </section>
     );

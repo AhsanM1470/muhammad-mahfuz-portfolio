@@ -23,7 +23,7 @@ function Navbar(){
           <Link to="/home">
             Muhammad Ahsan Mahfuz
           </Link>
-        /</div>
+        </div>
         <div>
             <ul className="nav-links">
             <li><a href="#about">About</a></li>
@@ -35,7 +35,11 @@ function Navbar(){
       </nav>
 
       <nav id="hamburger-nav">
-        <div className="logo">Muhammad Ahsan Mahfuz</div>
+        <div className="logo">
+          <Link to="/home">
+            Muhammad Ahsan Mahfuz
+          </Link>
+        </div>
         <div className="hamburger-menu">
           <div className={`hamburger-icon ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
             <span></span>

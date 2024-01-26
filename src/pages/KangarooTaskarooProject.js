@@ -21,7 +21,7 @@ function KangarooTaskarooProject() {
           </div>
           <p>The website is live (with seeded data) so why not <a href="https://kangarootaskaroo.pythonanywhere.com/">check it out for yourself?</a></p>
           <p>Alternatively, you can find the source code <a href="https://github.com/AhsanM1470/kangaroo-taskaroo">here.</a></p>
-          <img src={homePage} className="project-pic"/>
+          <img src={homePage} className="project-pic" alt="Homess" />
         </div>
       </section>
 
@@ -32,19 +32,19 @@ function KangarooTaskarooProject() {
             Users can either create their own teams or be invited by other users. Each team has a dashboard where they can create tasks and move them between lanes, representing the project workflow.
           </div>
         <div className="project-pic-container">
-          <img src={dashBoard}  className="project-pic"/>
-          <img src={createTeam} className="project-pic-side"/>
-          <img src={inviteMember} className="project-pic-side"/>
+          <img src={dashBoard}  className="project-pic" alt="Dashboard" />
+          <img src={createTeam} className="project-pic-side" alt="Create team" />
+          <img src={inviteMember} className="project-pic-side" alt="Invite member" />
         </div>
 
         <div className="text-container">
           Tasks include a due date and time, any other tasks it is dependent on for completion, and the users that have been assigned to complete it.<br />
           For ease of use tasks can also be filtered/searched.
         </div>
-        <img src={searchTasks} id="search-task" />
+        <img src={searchTasks} id="search-task"  alt="Search task"/>
         <div className="project-pic-container">
-          <img src={taskInfo} className="project-pic-medium"/>
-          <img src={createTask} className="project-pic-side"/>
+          <img src={taskInfo} className="project-pic-medium" alt="Task info" />
+          <img src={createTask} className="project-pic-side" alt="Create task" />
         </div>
 
           <div className="text-container">
