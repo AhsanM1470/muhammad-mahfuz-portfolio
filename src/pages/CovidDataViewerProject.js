@@ -37,7 +37,7 @@ function CovidDataViewerProject() {
               Hovering over sections of the map show a preview of the data which can be selected for further information.
             </div>
             <img src={mapWithHover} className="project-pic" alt="Map with mouse hover" />
-            <img src={mapTable} className="project-pic-medium" alt="Map table when selected" />
+            <img src={mapTable} id="data-viewer-map-table" alt="Map table when selected" />
             <div className="text-container">
               Additionally, there is a graph which shows the change in a specified field over time.
             </div>

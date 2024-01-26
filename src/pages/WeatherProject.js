@@ -28,7 +28,7 @@ function WeatherProject() {
           <div>
             The search bar performs a fuzzy search and displays a list of locations matching the user's input.
           </div>
-          <img src={searchBar} className="project-pic" alt="Search bar" />
+          <img src={searchBar} id="weather-search-bar" alt="Search bar" />
 
           <div className="text-container">
             Upon selecting a location, the user is presented with the forecast over the next week.
