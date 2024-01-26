@@ -5,6 +5,10 @@ import profilePic from '../assets/profile-pic.png';
 function ProfileSection(){
     const icons = useContext(IconContext);
 
+    const openCV = () => {
+        window.open('../assets/')
+    };
+
     return(
         <section id="profile">
             <div className="section-pic-container">
@@ -15,12 +19,6 @@ function ProfileSection(){
                 <h1 className="title">Muhammad Ahsan Mahfuz</h1>
                 <p className="section-text-2">Computer Science Student @ KCL</p>
                 <div className="btn-container">
-                <button className="btn btn-color-2" onclick="window.open('')">
-                    Download CV
-                </button>
-                <button className="btn btn-color-1" onclick="location.href='./#contact'">
-                    Contact Info
-                </button>
                 </div>
                 <div id="socials-container">
                     <img src={icons.email} className="icon" alt="My Email" onClick={() => window.location.href='mailto:ahsanmahfuz04@gmail.com'} />
