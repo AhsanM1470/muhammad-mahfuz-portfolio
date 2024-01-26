@@ -16,11 +16,14 @@ function KangarooTaskarooProject() {
         <h1 className="title">Project Purpose</h1>
         <div className="project-details-container">
           <div className="text-container">
-            <b>Kangaroo Taskaroo</b> is an online task manager developed by me and a group of other students, collectively known as Team Kangaroo!<br />
-            Developed in <b>Django</b> using <b>HTML, CSS, JavaScript,</b> and <b>Python</b>.
+            <b>Kangaroo Taskaroo</b> is an online task manager developed by me and a group of other students, collectively known as Team Kangaroo!
           </div>
-          <p>The website is live (with seeded data) so why not <a href="https://kangarootaskaroo.pythonanywhere.com/">check it out for yourself?</a></p>
-          <p>Alternatively, you can find the source code <a href="https://github.com/AhsanM1470/kangaroo-taskaroo">here.</a></p>
+          <div className="text-container">
+            Developed in <b id="key-bold">Django</b> using <b id="key-bold">HTML, CSS, JavaScript,</b> and <b id="key-bold">Python</b>.
+          </div>
+          <div className="text-container">
+            The website is live (with seeded data) so why not <a href="https://kangarootaskaroo.pythonanywhere.com/" id="sentence-link">check it out for yourself</a>?
+          </div>
           <img src={homePage} className="project-pic" alt="Homess" />
         </div>
       </section>

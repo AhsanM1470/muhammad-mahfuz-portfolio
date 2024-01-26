@@ -6,7 +6,7 @@ function ContactSection(){
 
     return(
         <section id="contact">
-            <h1 class="title section-header">Get in Touch</h1>
+            <h1 class="title section-header">Contact</h1>
             <div class="contact-info-upper-container">
                 <div class="contact-info-container">
                     <img src={icons.email} class="icon contact-icon email-icon" alt="Email icon"/>

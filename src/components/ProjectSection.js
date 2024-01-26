@@ -17,8 +17,8 @@ function ProjectSection(){
                         </div>
                         <h2 className="experience-sub-title project-title">Kangaroo Taskaroo</h2>
                         <div className="btn-container">
-                            <button className="btn btn-color-2 project-btn" onClick={() => window.location.href='https://github.com/'}>
-                                Github
+                            <button className="btn btn-color-2 project-btn" onClick={() => window.location.href='https://github.com/AhsanM1470/kangaroo-taskaroo'}>
+                                Source Code
                             </button>
                             <Link to="/kangaroo-taskaroo" className="project-link btn btn-color-2 project-btn">
                                 More Info
@@ -33,8 +33,8 @@ function ProjectSection(){
                         </div>
                         <h2 className="experience-sub-title project-title">Forecasting Site</h2>
                         <div className="btn-container">
-                            <button className="btn btn-color-2 project-btn" onClick={() => window.location.href='https://github.com/'}>
-                                Github
+                            <button className="btn btn-color-2 project-btn" onClick={() => window.location.href='https://github.com/AhsanM1470/weather-app'}>
+                                Source Code
                             </button>
                             <Link to="/weather" className="project-link btn btn-color-2 project-btn">
                                 More Info
@@ -49,8 +49,8 @@ function ProjectSection(){
                         </div>
                         <h2 className="experience-sub-title project-title">COVID Data Viewer</h2>
                         <div className="btn-container">
-                            <button className="btn btn-color-2 project-btn" onClick={() => window.location.href='https://github.com/'}>
-                                Github
+                            <button className="btn btn-color-2 project-btn" onClick={() => window.location.href='https://github.com/AhsanM1470/covid-data-viewer'}>
+                                Source Code
                             </button>
                             <Link to="/covid-data-viewer" className="project-link btn btn-color-2 project-btn">
                                 More Info
@@ -60,10 +60,10 @@ function ProjectSection(){
                 </div>
 
                 <h2>And this very website you're using right now!</h2>
-                <div class="text-container">
-                    Using <b>HTML, CSS, JavaScript, NodeJS</b> and <b>React</b>
+                <div className="fine-text">
+                    Using <b id="key-bold">HTML, CSS, JavaScript, NodeJS</b> and <b id="key-bold">React</b> <br />
+                    You can find the source code <a href="https://github.com/AhsanM1470/muhammad-mahfuz-portfolio/" id="sentence-link">here</a>
                 </div>
-
             </div>
         </section>
     );

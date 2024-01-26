@@ -15,7 +15,9 @@ function CovidDataViewerProject() {
         <div className="project-details-container">
           <div className="text-container">
             This application visualises COVID-19 data across different London boroughs. The data is retrieved from a locally stored Excel file with statistics dating back to the start of the pandemic.<br />
-            Developed in <b>Java</b> with <b>JavaFX</b> and <b>SceneBuilder</b>.
+          </div>
+          <div className="text-container">
+          Developed in <b id="key-bold">Java</b> with <b id="key-bold">JavaFX</b> and <b id="key-bold">SceneBuilder</b>.
           </div>
         </div>
       </section>

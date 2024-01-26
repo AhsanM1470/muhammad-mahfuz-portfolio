@@ -11,9 +11,13 @@ function WeatherProject() {
         <h1 className="title">Project Purpose</h1>
         <div className="project-details-container">
           <div className="text-container">
-            This web application allows users to view the daily and hourly forecasting for a given location from the present day, up to the next week.<br />
-            It utilises the <b>Open-Meteo Forecasting API</b> to retrieve data about the weather, and the <b>TomTom Search API</b> to find the location the user searches for.<br />
-            Developed using <b>HTML, CSS, JavaScript,</b> and <b>Python</b>.
+            This web application allows users to view the daily and hourly forecasting for a given location from the present day, up to the next week.
+          </div>
+          <div className="text-container">
+            It utilises the <b id="key-bold">Open-Meteo Forecasting API</b> to retrieve data about the weather, and the <b id="key-bold">TomTom Search API</b> to find the location the user searches for.
+          </div>
+          <div className="text-container">
+            Developed using <b id="key-bold">HTML, CSS, JavaScript,</b> and <b id="key-bold">Python</b>.
           </div>
         </div>
       </section>
@@ -30,9 +34,9 @@ function WeatherProject() {
             Upon selecting a location, the user is presented with the forecast over the next week.
           </div>
           <img src={weatherApp} className="project-pic" alt="Main page" />
+          Individual days and hours can be selected for further information.
           <div className="text-container">
-            Individual days and hours can be selected for further information.<br />
-            <b>Data displayed includes:</b>
+            <b className="bullet-point-list-header">Data displayed includes:</b>
             <ul className="bullet-point-list">
               <li>The date and time</li>
               <li>The temperature</li>

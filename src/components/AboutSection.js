@@ -15,16 +15,27 @@ function AboutSection(){
                             <p>Bachelors of Science BSc</p>
                             <p>Computer Science</p>
                             <p>King's College London</p>
+                            <p>Currently in my second year</p>
                         </div>
                     </div>
                     <div>
-                        <p>
-                            Hello!<br/>
-                            My name is Muhammad Ahsan Mahfuz. I am a Computer Science undergraduate currently in my second year at King's College London.<br/>
-                        </p>
-                        <p>I developed my first program when I was 12 and ever since then have prided myself on my problem-solving skills, adaptability, and quick learning. Although I would say my expertise lie in web development and data management, you'll find that I always welcome new challenges and regularly strive for greater heights.</p>
-                        <p>Outside of programming my hobbies include video editing, playing the piano, and a good game of chess. Anything that can hone my creative skills or just make me really work up my mind.</p>
-                        <p>I'm so grateful to be able to work towards this as a career and would love to get in touch with you!</p>
+                        <div className="text-container">
+                            My journey began at the tender age of 12 when I created my first-ever Python application.
+                            Ever since then, I have prided myself on my problem-solving skills, adaptability, and quick learning abilities.
+                            My experience primarily lies in full-stack development and data analysis, but you'll find that I am always eager to embrace new and unfamiliar challenges.
+                        </div>
+                        <div className="text-container">
+                            I've found immense satisfaction in collaborating and leading within diverse teams.
+                            These experiences have taught me how significantly teamwork amplifies our collective ability to innovate and solve complex problems.
+                            As a result of these projects, I particularly prioritize the readability and maintainability of my code.
+                        </div>
+                        <div className="text-container">
+                            Outside of coding, my hobbies include video editing, playing the piano, and engaging in a good game of chess!
+                            These activities are not just pastimes; they are extensions of my love for creativity and strategic thinking.
+                        </div>
+                        <div className="text-container">
+                            I am grateful for the opportunity to pursue this career and would be delighted to connect with you!
+                        </div>
                     </div>
                 </div>
             </div>

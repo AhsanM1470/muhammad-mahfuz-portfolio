@@ -9,13 +9,6 @@ function Navbar(){
         console.log("Touched");
     };
 
-    const scrollToSection = (sectionId) => {
-      const section = document.getElementById(sectionId);
-      if (section) {
-          section.scrollIntoView({ behavior: "smooth" });
-      }
-  };
-
     return(
     <header>
       <nav id="desktop-nav">
@@ -26,10 +19,10 @@ function Navbar(){
         </div>
         <div>
             <ul className="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><Link to="/home#about">About</Link></li>
+            <li><Link to="/home#experience">Experience</Link></li>
+            <li><Link to="/home#projects">Projects</Link></li>
+            <li><Link to="/home#contact">Contact</Link></li>
             </ul>
         </div>
       </nav>
@@ -47,10 +40,10 @@ function Navbar(){
             <span></span>
           </div>
           <div className={`menu-links ${isMenuOpen ? 'open' : ''}`}>
-            <li><a href="#about" onClick={toggleMenu}>About</a></li>
-            <li><a href="#experience" onClick={toggleMenu}>Experience</a></li>
-            <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
-            <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
+            <li><Link to="/home#about" onClick={toggleMenu}>About</Link></li>
+            <li><Link to="/home#experience" onClick={toggleMenu}>Experience</Link></li>
+            <li><Link to="/home#projects" onClick={toggleMenu}>Projects</Link></li>
+            <li><Link to="/home#contact" onClick={toggleMenu}>Contact</Link></li>
           </div>
         </div>
       </nav>
