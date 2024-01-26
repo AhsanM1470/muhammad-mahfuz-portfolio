@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
 import '../MediaQueries.css';
 import weatherApp from '../assets/weather/weather-app.png';
 import searchBar from '../assets/weather/searchbar.png';
 
 function WeatherProject() {
+  // Scroll to the top of the page
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return(
     <div>
       <section id="project-purpose">

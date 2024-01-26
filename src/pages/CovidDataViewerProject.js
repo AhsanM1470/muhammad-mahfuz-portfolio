@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
 import '../MediaQueries.css';
 import database from '../assets/data-viewer/database.png';
@@ -8,6 +8,11 @@ import mapWithHover from '../assets/data-viewer/map-with-hover.png';
 import mapTable from '../assets/data-viewer/map-table.png';
 
 function CovidDataViewerProject() {
+  // Scroll to the top of the page
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return(
     <div>
       <section id="project-purpose">

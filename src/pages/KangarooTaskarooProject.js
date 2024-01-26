@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
 import '../MediaQueries.css';
 import homePage from '../assets/kangaroo-taskaroo/home.png';
@@ -10,6 +10,11 @@ import taskInfo from '../assets/kangaroo-taskaroo/task-info.png';
 import createTask from '../assets/kangaroo-taskaroo/create-task.png';
 
 function KangarooTaskarooProject() {
+  // Scroll to the top of the page
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return(
     <div>
       <section id="project-purpose">
