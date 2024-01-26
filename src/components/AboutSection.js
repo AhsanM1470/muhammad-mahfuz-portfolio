@@ -15,7 +15,7 @@ function AboutSection(){
                             <p>Bachelors of Science BSc</p>
                             <p>Computer Science</p>
                             <p>King's College London</p>
-                            <p>Currently in my second year</p>
+                            <p>Second year</p>
                         </div>
                     </div>
                     <div>

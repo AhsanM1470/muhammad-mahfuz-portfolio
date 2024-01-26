@@ -76,9 +76,9 @@ nav{
 }
 
 .nav-links{
-  gap: 2rem;
+  gap: 2em;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .text-container{
@@ -103,12 +103,12 @@ a{
 a:hover{
   color: grey;
   text-decoration: underline;
-  text-underline-offset: 1rem;
+  text-underline-offset: 1em;
   text-decoration-color: rgb(0, 109, 251);
 }
 
 .logo{
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 .logo:hover{
@@ -159,7 +159,7 @@ a:hover{
   display: block;
   padding: 10px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   color: black;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
@@ -205,7 +205,7 @@ a, .btn{
 .btn-container{
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 1em;
 }
 
 .btn{
@@ -217,7 +217,7 @@ a, .btn{
 }
 
 .btn-color-1, .btn-color-2{
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(53, 53, 53) 0.1em solid;
 }
 
 .btn-color-1:hover, .btn-color-2:hover{
@@ -238,17 +238,17 @@ a, .btn{
 }
 
 .btn-color-2:hover{
-  border: rgb(255, 255, 255) 0.1rem solid;
+  border: rgb(255, 255, 255) 0.1em solid;
 }
 
 .btn-container{
-  gap: 1rem;
+  gap: 1em;
 }
 
 /* For project links */
 .project-link{
-  font-size: 0.84rem;
-  width: 6rem;
+  font-size: 0.84em;
+  width: 6em;
 }
 
 .project-link:hover{
@@ -263,7 +263,7 @@ a, .btn{
 
 section{
   padding-top: 1vh;
-  margin: 0 10rem;
+  margin: 0 10em;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -278,7 +278,7 @@ section{
 
 .icon{
   cursor: pointer;
-  height: 2rem;
+  height: 2em;
 }
 
 /* PROFILE SECTION */
@@ -286,15 +286,19 @@ section{
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 5em;
   /* height: 80vh; */
+}
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .section-pic-container{
   display: flex;
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
 }
 
 .section-text{
@@ -311,24 +315,24 @@ section{
 }
 
 .section-text-2{
-  font-size: 1.75rem;
-  margin-bottom: 1rem;
+  font-size: 1.75em;
+  margin-bottom: 1em;
 }
 
 .title{
-  font-size: 3rem;
+  font-size: 3em;
   text-align: center;
 }
 
 .section-header{
-  margin-top: 2rem;
+  margin-top: 2em;
 }
 
 #socials-container{
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
-  gap: 1rem;
+  margin-top: 1em;
+  gap: 1em;
 }
 
 /* ABOUT SECTION */
@@ -338,9 +342,9 @@ section{
 }
 
 .about-containers{
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  gap: 2em;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .about-details-container{
@@ -353,16 +357,16 @@ section{
 }
 
 .about-pic{
-  border-radius: 2rem;
+  border-radius: 2em;
 }
 
 
 .details-container{
-  padding: 1.5rem;
+  padding: 1.5em;
   flex: 1;
   background: white;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border-radius: 2em;
+  border: rgb(53, 53, 53) 0.1em solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
@@ -376,8 +380,8 @@ section{
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
+  font-size: 1.75em;
+  margin-bottom: 2em;
 }
 
 .experience-details-container {
@@ -389,14 +393,14 @@ section{
 #experience .article-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: 2em;
 }
 
 #experience article {
   align-self: start;
   justify-self: v;
   width: fit-content;
-  margin-left: 1rem;
+  margin-left: 1em;
 }
 
 .article-container{
@@ -404,15 +408,15 @@ section{
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 2.5em;
   justify-content: space-around;
 }
 
 article{
   display: flex;
-  width: 10rem;
+  width: 10em;
   justify-content: space-around;
-  gap: 0.5rem;
+  gap: 0.5em;
 }
 
 article .icon{
@@ -431,13 +435,13 @@ article .icon{
 }
 
 .project-img{
-  border-radius: 2rem;
+  border-radius: 2em;
   width: 90%;
   height: 90%;
 }
 
 .project-title{
-  margin: 1rem;
+  margin: 1em;
   color: black;
 }
 
@@ -458,20 +462,20 @@ article .icon{
 .contact-info-upper-container{
   display: flex;
   justify-content: center;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border-radius: 2em;
+  border: rgb(53, 53, 53) 0.1em solid;
   border-color: rgb(163, 163, 163);
   background: (250, 250, 250);
-  margin: 2rem auto;
-  padding: 0.5rem;
+  margin: 2em auto;
+  padding: 0.5em;
 }
 
 .contact-info-container{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  margin: 1rem;
+  gap: 0.5em;
+  margin: 1em;
 }
 
 .contact-info-container p{
@@ -483,14 +487,14 @@ article .icon{
 }
 
 .email-icon{
-  height: 2.5rem;
+  height: 2.5em;
 }
 
 /* FOOTER SECTION */
 
 footer{
   height: 26vh;
-  margin: 0 1rem;
+  margin: 0 1em;
 }
 
 footer p{
@@ -505,9 +509,9 @@ footer p{
 }
 
 .project-containers{
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  gap: 2em;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .project-details-container{
@@ -520,29 +524,29 @@ footer p{
 }
 
 .project-pic{
-  border-radius: 0.3rem;
-  width: 70%;
-  height: 100%;
+  border-radius: 0.3em;
+  width: 980px;
+  height: 550px;
   margin-top: 1em;
 }
 
 .project-pic-medium{
-  border-radius: 0.3rem;
-  width: 45%;
-  height: 100%;
+  border-radius: 0.3em;
+  width: 600px;
+  height: 550px;
   margin-top: 1em;
 }
 
 .project-pic-side{
-  border-radius: 0.3rem;
-  width: 15%;
-  height: 100%;
+  border-radius: 0.3em;
+  width: 200px;
+  height: 550px;
   margin-top: 1em;
   margin-left: 1em;
 }
 
 .project-pic-side-2{
-  border-radius: 0.3rem;
+  border-radius: 0.3em;
   width: 35%;
   height: 100%;
   margin-top: 1em;
@@ -551,15 +555,14 @@ footer p{
 
 .project-pic-container{
   display: flex;
-  height: 60vh;
 }
 
 #search-task{
-  width: 61%;
+  width: 815px;
   margin-top: 1em;
-  border-radius: 0.3rem;
+  border-radius: 0.3em;
 }
 
 .bullet-point-list{
-  margin-left: 2.5rem;
+  margin-left: 2.5em;
 }

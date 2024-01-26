@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import IconContext from '../IconContext';
+import profilePic from '../assets/profile-pic.png';
 
 function ProfileSection(){
     const icons = useContext(IconContext);
@@ -7,7 +8,7 @@ function ProfileSection(){
     return(
         <section id="profile">
             <div className="section-pic-container">
-                <img src="" alt="Muhammad Ahsan Mahfuz profile picture" />
+                <img src={profilePic} alt="Muhammad Ahsan Mahfuz profile picture" className='profile-pic' />
             </div>
             <div className="section-text">
                 <p className="section-text-1">Hello, I'm</p>

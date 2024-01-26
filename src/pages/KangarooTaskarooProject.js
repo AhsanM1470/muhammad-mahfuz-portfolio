@@ -44,7 +44,7 @@ function KangarooTaskarooProject() {
           Tasks include a due date and time, any other tasks it is dependent on for completion, and the users that have been assigned to complete it.<br />
           For ease of use tasks can also be filtered/searched.
         </div>
-        <img src={searchTasks} id="search-task"  alt="Search task"/>
+        <img src={searchTasks} id="search-task" alt="Search task"/>
         <div className="project-pic-container">
           <img src={taskInfo} className="project-pic-medium" alt="Task info" />
           <img src={createTask} className="project-pic-side" alt="Create task" />
