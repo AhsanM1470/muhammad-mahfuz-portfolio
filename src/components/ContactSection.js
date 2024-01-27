@@ -14,7 +14,7 @@ function ContactSection(){
                 </div>
                 <div className="contact-info-container">
                     <img src={icons.linkedIn} className="icon contact-icon" alt="LinkedIn icon"/>
-                    <p><a href="https://www.linkedin.com/in/muhammad-ahsan-mahfuz-294128253/">LinkedIn</a></p>
+                    <p><a href="https://www.linkedin.com/in/muhammadahsanmahfuz/">LinkedIn</a></p>
                 </div>
             </div>
         </section>

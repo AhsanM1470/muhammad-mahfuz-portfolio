@@ -18,7 +18,7 @@ function ProfileSection(){
                 </div>
                 <div id="socials-container">
                     <img src={icons.email} className="icon" alt="My Email" onClick={() => window.location.href='mailto:ahsanmahfuz04@gmail.com'} />
-                    <img src={icons.linkedIn} className="icon" alt="My LinkedIn profile" onClick={() => window.location.href='https://www.linkedin.com/in/muhammad-ahsan-mahfuz-294128253/'} />
+                    <img src={icons.linkedIn} className="icon" alt="My LinkedIn profile" onClick={() => window.location.href='https://www.linkedin.com/in/muhammadahsanmahfuz/'} />
                     <img src={icons.github} className="icon" alt="My Github profile" onClick={() => window.location.href='https://github.com/AhsanM1470'} />
                 </div>
             </div>
