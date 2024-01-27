@@ -4,13 +4,13 @@ import educationIcon from '../assets/icons/education.png';
 function AboutSection(){
     return(
         <section id="about">
-            <h1 class="title">About Me</h1>
-            <div class="section-container">
-                <div class="about-details-container">
-                    <div class="about-containers">
+            <h1 className="title">About Me</h1>
+            <div className="section-container">
+                <div className="about-details-container">
+                    <div className="about-containers">
                         {/* is about-containers necessary */}
-                        <div class="details-container">
-                            <img src={educationIcon} class="icon" alt="Education icon"/>
+                        <div className="details-container">
+                            <img src={educationIcon} className="icon" alt="Education icon"/>
                             <h3>Education</h3>
                             <p>Bachelors of Science BSc</p>
                             <p>Computer Science</p>
