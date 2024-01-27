@@ -20,7 +20,7 @@ function ProjectSection(){
                             <button className="btn btn-color-2 project-btn" onClick={() => window.location.href='https://github.com/AhsanM1470/kangaroo-taskaroo'}>
                                 Source Code
                             </button>
-                            <Link to="/kangaroo-taskaroo" className="project-link btn btn-color-2 project-btn">
+                            <Link to="/muhammad-mahfuz-portfolio/kangaroo-taskaroo" className="project-link btn btn-color-2 project-btn">
                                 More Info
                             </Link>
                         </div>
@@ -36,7 +36,7 @@ function ProjectSection(){
                             <button className="btn btn-color-2 project-btn" onClick={() => window.location.href='https://github.com/AhsanM1470/weather-app'}>
                                 Source Code
                             </button>
-                            <Link to="/weather" className="project-link btn btn-color-2 project-btn">
+                            <Link to="/muhammad-mahfuz-portfolio/weather" className="project-link btn btn-color-2 project-btn">
                                 More Info
                             </Link>
                         </div>
@@ -52,7 +52,7 @@ function ProjectSection(){
                             <button className="btn btn-color-2 project-btn" onClick={() => window.location.href='https://github.com/AhsanM1470/covid-data-viewer'}>
                                 Source Code
                             </button>
-                            <Link to="/covid-data-viewer" className="project-link btn btn-color-2 project-btn">
+                            <Link to="/muhammad-mahfuz-portfolio/covid-data-viewer" className="project-link btn btn-color-2 project-btn">
                                 More Info
                             </Link>
                         </div>

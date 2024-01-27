@@ -24,10 +24,10 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/*" element={<Home />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/kangaroo-taskaroo" element={<KangarooTaskarooProject />} />
-            <Route path="/weather" element={<WeatherProject />} />
-            <Route path="/covid-data-viewer" element={<CovidDataViewerProject />} />
+            <Route path="/muhammad-mahfuz-portfolio" element={<Home />} />
+            <Route path="/muhammad-mahfuz-portfolio/kangaroo-taskaroo" element={<KangarooTaskarooProject />} />
+            <Route path="/muhammad-mahfuz-portfolio/weather" element={<WeatherProject />} />
+            <Route path="/muhammad-mahfuz-portfolio/covid-data-viewer" element={<CovidDataViewerProject />} />
           </Routes>
           <Footer />
         </div>

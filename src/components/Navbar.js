@@ -13,23 +13,23 @@ function Navbar(){
       <header>
         <nav id="desktop-nav">
           <div className="logo">
-            <Link to="/home">
+            <Link to="/muhammad-mahfuz-portfolio">
               Muhammad Ahsan Mahfuz
             </Link>
           </div>
           <div>
               <ul className="nav-links">
-              <li><Link to="/home#about">About</Link></li>
-              <li><Link to="/home#experience">Experience</Link></li>
-              <li><Link to="/home#projects">Projects</Link></li>
-              <li><Link to="/home#contact">Contact</Link></li>
+              <li><Link to="/muhammad-mahfuz-portfolio#about">About</Link></li>
+              <li><Link to="/muhammad-mahfuz-portfolio#experience">Experience</Link></li>
+              <li><Link to="/muhammad-mahfuz-portfolio#projects">Projects</Link></li>
+              <li><Link to="/muhammad-mahfuz-portfolio#contact">Contact</Link></li>
               </ul>
           </div>
         </nav>
 
         <nav id="hamburger-nav">
           <div className="logo">
-            <Link to="/home">
+            <Link to="/muhammad-mahfuz-portfolio">
               Muhammad Ahsan Mahfuz
             </Link>
           </div>
@@ -40,10 +40,10 @@ function Navbar(){
               <span></span>
             </div>
             <div className={`menu-links ${isMenuOpen ? 'open' : ''}`}>
-              <li><Link to="/home#about" onClick={toggleMenu}>About</Link></li>
-              <li><Link to="/home#experience" onClick={toggleMenu}>Experience</Link></li>
-              <li><Link to="/home#projects" onClick={toggleMenu}>Projects</Link></li>
-              <li><Link to="/home#contact" onClick={toggleMenu}>Contact</Link></li>
+              <li><Link to="/muhammad-mahfuz-portfolio#about" onClick={toggleMenu}>About</Link></li>
+              <li><Link to="/muhammad-mahfuz-portfolio#experience" onClick={toggleMenu}>Experience</Link></li>
+              <li><Link to="/muhammad-mahfuz-portfolio#projects" onClick={toggleMenu}>Projects</Link></li>
+              <li><Link to="/muhammad-mahfuz-portfolio#contact" onClick={toggleMenu}>Contact</Link></li>
             </div>
           </div>
         </nav>
