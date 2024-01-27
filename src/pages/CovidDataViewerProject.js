@@ -34,19 +34,24 @@ function CovidDataViewerProject() {
                 The user is prompted to input a valid date range to start the application.<br />
                 Upon doing so, a table is displayed with all the data stored within the range.
             </div>
+
             <img src={database} className="project-pic" alt="Database" />
             The arrow buttons at the bottom allows the user to navigate to different representations of the data.
+
             <img src={map} className="project-pic" alt="Map" />
             On this page is a map visualising the deaths across the boroughs.
+
             <div className="text-container">
               Hovering over sections of the map show a preview of the data which can be selected for further information.
             </div>
             <img src={mapWithHover} className="project-pic" alt="Map with mouse hover" />
             <img src={mapTable} id="data-viewer-map-table" alt="Map table when selected" />
+
             <div className="text-container">
               Additionally, there is a graph which shows the change in a specified field over time.
             </div>
             <img src={graph} className="project-pic" alt="Graph" />
+            
             <div className="text-container">
               <b>Field options include:</b>
             </div>

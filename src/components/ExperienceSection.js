@@ -8,7 +8,7 @@ function ExperienceSection(){
             <div class="experience-details-container">
                 <div class="about-containers">
                     <div class="details-container">
-                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <h2 class="experience-sub-title">Languages</h2>
                         <div class="article-container">
                             <article>
                                 <img src={checkmarkIcon} class="icon" alt="Experience icon"/>
@@ -30,30 +30,37 @@ function ExperienceSection(){
                                 <h3>JavaScript</h3>
                                 </div>
                             </article>
+
+                            <article>
+                                <img src={checkmarkIcon} class="icon" alt="Experience icon"/>
+                                <div>
+                                <h3>Java</h3>
+                                </div>
+                            </article>
+
+                            <article>
+                                <img src={checkmarkIcon} class="icon" alt="Experience icon"/>
+                                <div>
+                                <h3>Python</h3>
+                                </div>
+                            </article>
+
+                            <article>
+                                <img src={checkmarkIcon} class="icon" alt="Experience icon"/>
+                                <div>
+                                <h3>C++</h3>
+                                </div>
+                            </article>
                         </div>
                     </div>
 
                     <div class="details-container">
-                        <h2 class="experience-sub-title">Backend Development</h2>
+                        <h2 class="experience-sub-title">Frameworks</h2>
                         <div class="article-container">
                             <article>
                                 <img src={checkmarkIcon} class="icon" alt="Experience icon"/>
                                 <div>
-                                    <h3>Node JS</h3>
-                                </div>
-                            </article>
-
-                            <article>
-                                <img src={checkmarkIcon} class="icon" alt="Experience icon"/>
-                                <div>
-                                    <h3>React</h3>
-                                </div>
-                            </article>
-
-                            <article>
-                                <img src={checkmarkIcon} class="icon" alt="Experience icon"/>
-                                <div>
-                                    <h3>Git</h3>
+                                    <h3>NodeJS</h3>
                                 </div>
                             </article>
 
@@ -63,26 +70,6 @@ function ExperienceSection(){
                                     <h3>Django</h3>
                                 </div>
                             </article>
-                        </div>
-                    </div>
-
-                    {/* other skills */}
-                    <div class="details-container">
-                        <h2 class="experience-sub-title">Other Skills</h2>
-                        <div class="article-container">
-                            <article>
-                                <img src={checkmarkIcon} class="icon" alt="Experience icon"/>
-                                <div>
-                                    <h3>Python</h3>
-                                </div>
-                            </article>
-
-                            <article>
-                                <img src={checkmarkIcon} class="icon" alt="Experience icon"/>
-                                <div>
-                                    <h3>Java</h3>
-                                </div>
-                            </article>
 
                             <article>
                                 <img src={checkmarkIcon} class="icon" alt="Experience icon"/>
@@ -90,12 +77,17 @@ function ExperienceSection(){
                                     <h3>JavaFX</h3>
                                 </div>
                             </article>
+                        </div>
+                    </div>
 
+                    {/* Other Tools */}
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Libraries</h2>
+                        <div class="article-container">
                             <article>
                                 <img src={checkmarkIcon} class="icon" alt="Experience icon"/>
                                 <div>
-                                    {/* Not aligned */}
-                                    <h3>C++</h3>
+                                    <h3>React</h3>
                                 </div>
                             </article>
                         </div>

@@ -40,6 +40,7 @@ function WeatherProject() {
           </div>
           <img src={weatherApp} className="project-pic" alt="Main page" />
           Individual days and hours can be selected for further information.
+          
           <div className="text-container">
             <b className="bullet-point-list-header">Data displayed includes:</b>
             <ul className="bullet-point-list">

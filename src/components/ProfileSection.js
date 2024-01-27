@@ -5,14 +5,10 @@ import profilePic from '../assets/profile-pic.png';
 function ProfileSection(){
     const icons = useContext(IconContext);
 
-    const openCV = () => {
-        window.open('../assets/')
-    };
-
     return(
         <section id="profile">
             <div className="section-pic-container">
-                <img src={profilePic} alt="Muhammad Ahsan Mahfuz profile picture" className='profile-pic' />
+                <img src={profilePic} alt="Muhammad Ahsan Mahfuz" className='profile-pic' />
             </div>
             <div className="section-text">
                 <p className="section-text-1">Hello, I'm</p>
