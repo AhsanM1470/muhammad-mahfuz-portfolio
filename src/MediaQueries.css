@@ -49,66 +49,113 @@
     }
 }
 
-@media screen and (max-width: 600px){
-    .logo{
+/* For devices such as tablets or larger phones */
+@media screen and (max-width: 768px) {
+  .logo {
       font-size: 1.5em;
-    }
-    
-    .nav-links{
+  }
+
+  .nav-links {
       flex-direction: column;
-      gap: 0.5em;
+      gap: 1em;
       text-align: center;
-    }
+  }
 
-    article{
+  article {
       font-size: 1em;
-    }
+  }
 
-    #profile{
-        height: 83vh;
-        margin-bottom: 0;
-    }
+  #profile {
+      height: auto;
+      margin-bottom: 0;
+  }
 
-    .experience-sub-title{
+  .experience-sub-title {
       font-size: 1.25em;
-    }
+  }
 
-    .title{
-      font-size: 2em;
-    }
+  .title {
+      font-size: 1.75em;
+  }
 
-    .text-container{
+  .text-container {
       text-align: justify;
-    }
+  }
 
-    .section-pic-container{
+  .section-pic-container {
       width: auto;
-      height: 46vw;
+      height: auto;
       justify-content: center;
-    }
-    
-    .section-text-2{
+  }
+
+  .section-text-2 {
       font-size: 1.25em;
-    }
+  }
 
-    .about-containers, .contact-info-upper-container, .btn-container{
+  .about-containers, .contact-info-upper-container, .btn-container {
       flex-wrap: wrap;
-    }
+      justify-content: center;
+  }
 
-    .contact-info-container{
-      margin: 0;
-    }
-  
-    .contact-info-container p, .nav-links li a{
+  .contact-info-container {
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  .contact-info-container p, .nav-links li a {
       font-size: 1em;
-    }
+  }
 
-    #contact, footer{
-      height: 40vh;
-    }
-  
-    footer nav{
+  #contact, footer {
+      height: auto;
+      padding: 1em;
+  }
+
+  footer nav {
       height: fit-content;
       margin-bottom: 2em;
-    }
+  }
+}
+
+/* For devices such as small phones */
+@media screen and (max-width: 480px) {
+  .logo {
+      font-size: 1.2em;
+  }
+
+  .nav-links {
+      gap: 0.5em;
+      font-size: 1em;
+  }
+
+  .btn {
+      padding: 0.5em;
+      font-size: 0.9em;
+  }
+
+  .profile-pic {
+      width: 150px;
+      height: 150px;
+  }
+
+  .title {
+      font-size: 1.5em;
+  }
+
+  .section-text-2 {
+      font-size: 1em;
+  }
+
+  .section-pic-container {
+      width: 100%;
+      height: auto;
+  }
+
+  .experience-sub-title {
+      font-size: 1em;
+  }
+
+  footer {
+      text-align: center;
+  }
 }

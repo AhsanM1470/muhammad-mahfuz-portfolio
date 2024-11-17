@@ -90,6 +90,12 @@ function ExperienceSection(){
                                     <h3>React</h3>
                                 </div>
                             </article>
+                            <article>
+                                <img src={checkmarkIcon} className="icon" alt="Experience icon"/>
+                                <div>
+                                    <h3>JUnit</h3>
+                                </div>
+                            </article>
                         </div>
                     </div>
                 </div>
