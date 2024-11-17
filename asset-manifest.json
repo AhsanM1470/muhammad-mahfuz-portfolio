@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/muhammad-mahfuz-portfolio/static/css/main.3e4514e0.css",
+    "main.js": "/muhammad-mahfuz-portfolio/static/js/main.77541d09.js",
+    "static/js/453.92163e2f.chunk.js": "/muhammad-mahfuz-portfolio/static/js/453.92163e2f.chunk.js",
+    "static/media/dashboard.png": "/muhammad-mahfuz-portfolio/static/media/dashboard.ec1c1a028a496d994d47.png",
+    "static/media/weather-app.png": "/muhammad-mahfuz-portfolio/static/media/weather-app.9895625fb83cfcc40db6.png",
+    "static/media/home.png": "/muhammad-mahfuz-portfolio/static/media/home.2f5076e0d624fe449ce3.png",
+    "static/media/create-team.png": "/muhammad-mahfuz-portfolio/static/media/create-team.b11b336c6e269713eea8.png",
+    "static/media/invite-member.png": "/muhammad-mahfuz-portfolio/static/media/invite-member.029b7449eef77d384ff7.png",
+    "static/media/create-task.png": "/muhammad-mahfuz-portfolio/static/media/create-task.1d5b5dd4cefa96d97991.png",
+    "static/media/map-with-hover.png": "/muhammad-mahfuz-portfolio/static/media/map-with-hover.5fc780ab9dcc150cf1c9.png",
+    "static/media/map.png": "/muhammad-mahfuz-portfolio/static/media/map.0f5d5680cbb549b7c47c.png",
+    "static/media/graph.png": "/muhammad-mahfuz-portfolio/static/media/graph.86ecf218ff4844e63ec9.png",
+    "static/media/search-tasks.png": "/muhammad-mahfuz-portfolio/static/media/search-tasks.c297e05f93f141b851aa.png",
+    "static/media/profile-pic.jpg": "/muhammad-mahfuz-portfolio/static/media/profile-pic.471d6e2078a7fe0b7935.jpg",
+    "static/media/database.png": "/muhammad-mahfuz-portfolio/static/media/database.70458dce2ba1599e4b03.png",
+    "static/media/task-info.png": "/muhammad-mahfuz-portfolio/static/media/task-info.258fdc4760587631b22b.png",
+    "static/media/map-table.png": "/muhammad-mahfuz-portfolio/static/media/map-table.178f2e4a8bdf42f4ea66.png",
+    "static/media/task-icon.png": "/muhammad-mahfuz-portfolio/static/media/task-icon.0036ef666bb9caed1d5e.png",
+    "static/media/weather-icon.png": "/muhammad-mahfuz-portfolio/static/media/weather-icon.903c39398535fc8bf1bc.png",
+    "static/media/covid-icon.png": "/muhammad-mahfuz-portfolio/static/media/covid-icon.a019a525ecc2209a7f21.png",
+    "static/media/checkmark.png": "/muhammad-mahfuz-portfolio/static/media/checkmark.86728d9a224a2c7c95d4.png",
+    "static/media/linkedin.png": "/muhammad-mahfuz-portfolio/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "static/media/searchbar.png": "/muhammad-mahfuz-portfolio/static/media/searchbar.b796e70e89db088e6e9e.png",
+    "index.html": "/muhammad-mahfuz-portfolio/index.html",
+    "main.3e4514e0.css.map": "/muhammad-mahfuz-portfolio/static/css/main.3e4514e0.css.map",
+    "main.77541d09.js.map": "/muhammad-mahfuz-portfolio/static/js/main.77541d09.js.map",
+    "453.92163e2f.chunk.js.map": "/muhammad-mahfuz-portfolio/static/js/453.92163e2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e4514e0.css",
+    "static/js/main.77541d09.js"
+  ]
+}
